@@ -13,9 +13,8 @@ union Test{
 */
 int main()
 { 
-	cout<<"hello world"<<endl;
+<<<<<<< HEAD
 	Test a;
-	cout<<"hello world"<<endl; 
 	a.b[0]=1;
 	a.b[1]=2;
 	a.b[2]=4;
@@ -24,7 +23,10 @@ int main()
 	printf("%x  %x",a.b[0],a.b[1]);
     
 	system("pause");
+=======
+	cout<<"hello world"<<endl; 
 	cout<<"I want to make some change"<<endl;
 	cout<<typeid(sizeof(int)).name()<<endl;
+>>>>>>> efa38610f9f69a88b7241f1888130e93734e053b
 	return 0;
 }
